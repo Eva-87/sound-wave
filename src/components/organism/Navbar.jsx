@@ -1,22 +1,15 @@
-import Logo from "../atoms/Logo";
-import Title from "../atoms/Title";
-import Button from "../atoms/Button";
-import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-left">
-        <Logo />
-        <Title>SoundWave</Title>
-      </div>
-
-      <div className="navbar-right">
-        <Button>Home</Button>
-        <Button>Discover</Button>
-        <Button>Join</Button>
-      </div>
-    </nav>
+    <>
+        
+        SoundWave
+        <Link to="/">Home</Link>
+        <Link to="discover">Discover</Link>
+        <Link to="join">Join</Link>
+    </>
+    
   );
 }
 
