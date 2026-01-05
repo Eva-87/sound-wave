@@ -1,0 +1,2 @@
+Sound Wave –
+Bienvenido al repositorio del proyecto Sound Wave, una landing page desarrollada para impulsar la campaña de marketing digital de una plataforma musical emergente que compite directamente con Spotify. Este proyecto forma parte de un entorno interdisciplinar donde diseño UX, desarrollo web y marketing se unen para crear una experiencia atractiva, moderna y totalmente responsive.
