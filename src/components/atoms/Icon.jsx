@@ -1,6 +1,9 @@
 import React from "react";
 import twitterImg from "../../assets/twitter.jpg";
 import fbImg from "../../assets/fb.jpg";
+import more from "../../assets/more.svg";
+import microphone from "../../assets/microphone.svg";
+import albums from "../../assets/albums.svg";
 
 const Icon = ({ type, link }) => {
   const icons = {
@@ -11,6 +14,18 @@ const Icon = ({ type, link }) => {
     facebook: {
       img: fbImg,
       label: "Facebook",
+    },
+     microphone: {
+      img: microphone,
+      label: "Microphone",
+    },
+     albums: {
+      img: albums,
+      label: "Albums",
+    },
+     more: {
+      img: more,
+      label: "More",
     },
   };
 
