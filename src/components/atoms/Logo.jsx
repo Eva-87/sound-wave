@@ -1,14 +1,20 @@
-import "./Logo.css";
-import logoImg from "../assets/logo.png"; 
+
+import logonav from "../../assets/logonav.png";
+
 
 function Logo() {
   return (
     <img
-      src={logoImg}
+      src={logonav}
       alt="Logo"
-      className="logo"
+      className="w-10 h-auto"
     />
   );
 }
 
 export default Logo;
+
+
+
+
+

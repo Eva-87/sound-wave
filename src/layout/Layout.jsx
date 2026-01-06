@@ -7,7 +7,11 @@ const Layout = () => {
     <>
       <nav><Navbar/></nav>
       <main><Outlet/></main>
-      <footer><Footer/></footer>
+      <footer><Footer/>
+        <div className="pb-24">
+            {}
+        </div>
+</footer>
     </>
   );
 };

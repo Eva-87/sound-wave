@@ -4,6 +4,7 @@ import Discover from "../pages/Discover";
 import Join from "../pages/Join";
 import Layout from "../layout/Layout";
 
+
 export const router = createBrowserRouter([
   {
         path: "/",

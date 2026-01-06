@@ -1,17 +1,14 @@
-import Title from '../components/atoms/Title'
-
-
-
-
-const Home = () => {
+const Button = ({ text, onClick, type = "button", disabled = false, className = "" }) => {
   return (
-    <div>
-      <Title>Feel the Music</Title> 
-    </div>
-  )
-}
+    <button
+      type={type}
+      onClick={onClick}
+      disabled={disabled}
+      className={className}
+    >
+      {text}
+    </button>
+  );
+};
 
-export default Home
-
-
-
+export default Button;
