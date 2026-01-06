@@ -1,12 +1,10 @@
-import React from "react";
-
-const Button = ({ text, onClick, type = "button", disabled = false }) => {
+const Button = ({ text, onClick, type = "button", disabled = false, className = "" }) => {
   return (
     <button
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className="text-white text-[1.2rem] hover:text-gray-300 transition font-poppins"
+      className={`text-white text-[1.2rem] hover:text-gray-300 transition font-poppins ${className}`}
     >
       {text}
     </button>
