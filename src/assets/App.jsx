@@ -1,9 +1,18 @@
 import React from 'react'
+import Form from "./components/molecules/Form";
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Form/>
+    </div>
   )
 }
 
 export default App
+
+
+
+
+
+
