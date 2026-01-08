@@ -8,8 +8,8 @@ function Footer() {
     >
       {}
       <div className="flex gap-6 mb-4 md:mb-0">
-        <Button text="About Us" />
-        <Button text="Contact" />
+        <Button text="About Us" link="/about"/>
+        <Button text="Contact" link="/contact"/>
       </div>
 
       {}

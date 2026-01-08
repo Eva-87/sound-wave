@@ -4,6 +4,10 @@ import fbImg from "../../assets/fb.jpg";
 import more from "../../assets/more.svg";
 import microphone from "../../assets/microphone.svg";
 import albums from "../../assets/albums.svg";
+import topartist from "../../assets/topartist.jpg";
+import topalbums from "../../assets/topalbums.jpg";
+import viral50 from "../../assets/viral50.jpg";
+import pulse from "../../assets/pulse.jpg";
 
 const Icon = ({ type, link }) => {
   const icons = {
@@ -26,6 +30,22 @@ const Icon = ({ type, link }) => {
      more: {
       img: more,
       label: "More",
+    }, 
+      topartist: {
+      img: topartist,
+      label: "topartist",
+    },
+      topalbums: {
+      img: topalbums,
+      label: "topalbums",
+    },
+      viral50: {
+      img: viral50,
+      label: "viral50",
+    },
+      pulse: {
+      img: pulse,
+      label: "pulse",
     },
   };
 

@@ -8,9 +8,9 @@ import covers from "../assets/covers.jpg";
 
 const Discover = () => {
   const items = [
-    { icon: microphone, label: "Charts" },
-    { icon: albums, label: "Albums" },
-    { icon: more, label: "More" },
+    { icon: microphone, label: "Charts", link: "/discover/charts" },
+    { icon: albums, label: "Albums", link: "/discover/albums" },
+    { icon: more, label: "More", link: "/discover/more" },
   ];
 
   return (
@@ -27,26 +27,28 @@ const Discover = () => {
           </h2>
 
           <div className="grid grid-cols-3 gap-2">
-            {items.map((item) => (
-              <Button
-                key={item.label}
-                text={
-                  <div className="flex flex-col items-center gap-1">
-                    <img src={item.icon} alt={item.label} className="w-6 h-6" />
-                    <span className="text-xs">{item.label}</span>
-                  </div>
-                }
-                className="
-                  bg-[#202027]
-                  hover:bg-[#2a2a33]
-                  transition-colors
-                  rounded-lg
-                  w-16 h-16
-                  flex items-center justify-center
-                "
-              />
+          {items.map((item) => (
+            <Button
+              key={item.label}
+              text={
+                <div className="flex flex-col items-center gap-1">
+                  <img src={item.icon} alt={item.label} className="w-6 h-6" />
+                  <span className="text-xs">{item.label}</span>
+                </div>
+              }
+              link={item.link}  
+              className="
+                bg-[#202027]
+                hover:bg-[#2a2a33]
+                transition-colors
+                rounded-lg
+                w-16 h-16
+                flex items-center justify-center
+               "
+             />
             ))}
           </div>
+
 
           <p className="text-sm opacity-80 max-w-xs md:max-w-sm">
             By joining you can benefit by listening to the latest albums released.
